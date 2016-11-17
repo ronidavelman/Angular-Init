@@ -16,3 +16,14 @@ My personal preference for how to start an Angular project.
 - Owl Carousel
 - Underscore.js
 
+### Getting Started
+
+git clone https://github.com/ronidavelman/Angular-Init.git
+
+npm init
+
+npm install
+
+Set your app name by replacing MyApp
+
+grunt - to generate Mod files and add to the lib file
