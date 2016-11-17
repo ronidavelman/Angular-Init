@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="Build/lib.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="Build/lib.min.css">
+    <!--
+    Add libraries to /Lib and run grunt
+    -->
+    <script src="app.js"></script>
+    <script src="Build/modules.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="Build/modules.min.css">
+    <!--
+    Instead of adding each module here, like: <script src="Modules/HomeMod/HomeCtrl.js"></script>
+    Run grunt and the module is added to Build/modules.min.js
+    -->
+    <base href="/" />
+  </head>
+  <body ng-app="MyApp">
+    <div ui-view ></div>
+  </body>
+</html>
