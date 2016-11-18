@@ -6,7 +6,7 @@
 			'$parse',
 			owlCarouselDirective
 		]);
-
+ 
 	if (typeof module !== 'undefined' && typeof exports !== 'undefined' && module.exports === exports) {
 		// Export the *name* of this Angular module
 		// Sample usage:
