@@ -5,6 +5,7 @@ My personal preference for how to start an Angular project.
 - Grunt
 - Uglify
 - Cssmin
+- Watch
 - Angular 
 - Angular UI Router
 - JQuery
@@ -26,4 +27,5 @@ npm install
 
 Set your app name by replacing MyApp
 
-grunt - to generate Mod files and add to the lib file
+grunt - To generate Mod files and add to the lib file and start the dev environment. As changes are made, it will auto re-compile the build file.
+
